@@ -32,6 +32,6 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "peaceiris/actions-hg-pages": "v3.7.0"
+    "peaceiris/actions-gh-pages": "v3.7.0"
   }
 }
