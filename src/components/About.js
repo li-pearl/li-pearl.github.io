@@ -9,15 +9,17 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi! I'm Anshi Paul
             <br className="hidden lg:inline-block" />
+          </h1>
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
             <Typed
-              className="text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-green-600"
-              // style={{ margin: "o o 1rem o" }}
-              typeSpeed={100}
-              backSpeed={50}
-              backDelay={1000}
-              loop
-              strings={["Programmer", "Maker", "Innovator", "FRC Competitor"]}
-            />
+                className="text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-green-600"
+                // style={{ margin: "o o 1rem o" }}
+                typeSpeed={100}
+                backSpeed={50}
+                backDelay={1000}
+                loop
+                strings={["Programmer", "Maker", "Innovator", "FRC Competitor"]}
+              />
           </h1>
           <p className="mb-8 leading-relaxed">
             Developing assistive technology and devices to make the world a

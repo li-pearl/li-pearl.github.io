@@ -40,17 +40,17 @@ export default function Contact() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48697.33339789926!2d-76.642925!3d40.285005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8bb5eccb2aff3%3A0x7467ff30c8a65e56!2sHershey%2C%20PA!5e0!3m2!1sen!2sus!4v1687291880592!5m2!1sen!2sus"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 LOCATION
               </h2>
-              <p className="mt-1">Hershey, PA, 17036</p>
+              <p className="mt-1">Hershey, PA</p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <div className="px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-indigo-400 mt-1">
                 anshipaul@outlook.com
               </a>
             </div>
@@ -62,10 +62,9 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-white sm:text-4xl text-3xl mb-4 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">I would love to hear from you!</p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name

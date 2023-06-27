@@ -25,9 +25,9 @@ export default function Projects() {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             View my past projects entered into science fairs such as the
-            Regeneron International Science and Engineering Fair, Pennsylvania
-            Junior Academy of Science, Capital Area Science and Engineering
-            Fair, and International BioGENEius Challenge.
+            Regeneron International Science and Engineering Fair, International
+            BioGENEius Challenge, Pennsylvania Junior Academy of Science, and
+            Capital Area Science and Engineering Fair.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
