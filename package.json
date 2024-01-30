@@ -14,15 +14,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-merge-refs": "^2.1.1",
-    "react-router-dom": "^6.13.0",
-    "react-scripts": "^1.1.5",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "2.0.3",
     "react-typed": "^1.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco --openssl-legacy-provider build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +37,11 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
