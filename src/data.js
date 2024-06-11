@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "DORY: Wearable ML Object Tracking and Retrieval Assistant for Dementia and Alzheimer's Patients",
+    subtitle: "Object Recognition, Python, RaspberryPi",
+    description: "2023-24 | Wearable device aiming to increase pateint independence and reduce caregiver stress through a natural and conversational memory assistant that can keep track of the location of objects around the house for the patient.",
+    image: "./dory.png",
+    link: ""
+  },
+  {
     title: "NEMO: Wearable Memory Assistive Device for Dementia and Alzheimer’s Patients Using Machine Learning Facial Recognition",
     subtitle: "Facial Recognition, Python, RaspberryPi, Flutter",
     description:
