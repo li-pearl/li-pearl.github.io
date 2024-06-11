@@ -4,7 +4,7 @@ export default function Blog() {
     return(
         <div className="main-container">
             <h1 className="main-heading">
-                Blog App using React Js 
+                Coming Soon... 
             </h1>
         </div>
     )
