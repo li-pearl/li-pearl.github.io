@@ -23,7 +23,7 @@ export default function About() {
               />
           </h1>
           <p className="mb-8 leading-relaxed">
-            A high school junior developing assistive technology and devices to make the world a
+            A high school senior developing assistive technology and devices to make the world a
             better place.
           </p>
           <div className="flex justify-left">
