@@ -34,10 +34,11 @@ export default function About() {
               View Projects
             </a>
             <a
-              href="#contact"
+              href="/Anshi_Paul_CV.pdf"
+              download
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Contact
+              Download CV
             </a>
           </div>
         </div>
