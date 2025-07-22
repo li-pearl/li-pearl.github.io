@@ -12,7 +12,7 @@ export default function Home() {
     <main className="text-gray-400 bg-gray-900 body-font">
       <About/>
       <Projects/>
-      <NotFound/>
+      {/* <NotFound/> */}
       {/* <Awards/> */}
       {/* <Contact/> */}
     </main>
