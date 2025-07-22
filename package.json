@@ -10,13 +10,17 @@
     "@heroicons/react": "^1.0.1",
     "@splinetool/react-spline": "^2.2.6",
     "gh-pages": "^5.0.0",
+    "gray-matter": "^3.1.1",
     "lodash.debounce": "^4.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-markdown": "^6.0.3",
     "react-merge-refs": "^2.1.1",
     "react-router-dom": "^6.21.3",
     "react-scripts": "2.0.3",
-    "react-typed": "^1.2.0"
+    "react-typed": "^1.2.0",
+    "unified": "^9.2.2",
+    "vfile": "^5.3.7"
   },
   "scripts": {
     "predeploy": "npm run build",

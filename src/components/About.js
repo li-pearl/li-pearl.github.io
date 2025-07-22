@@ -19,12 +19,11 @@ export default function About() {
                 backSpeed={50}
                 backDelay={1000}
                 loop
-                strings={["Programmer", "Maker", "Innovator", "FRC Competitor", "Aviation Enthusiast"]}
+                strings={["Programmer", "Maker", "Innovator", "Aviation Enthusiast"]}
               />
           </h1>
           <p className="mb-8 leading-relaxed">
-            A high school senior developing assistive technology and devices to make the world a
-            better place.
+            A rising freshman at Caltech passionate about using programming, machine learning, and hardware development to create innovative solutions to create a more connected world. I have a strong interest in aviation and robotics, and I enjoy working on projects that combine these fields.
           </p>
           <div className="flex justify-left">
             <a
